@@ -1,4 +1,4 @@
-#Night Light
+#Night_Light
 
 A simple intelligent battery-popwered light on PIC12F675 (using gpasm).
 
