@@ -169,7 +169,7 @@ TLIGHT
     GOTO    LIGHT_IS_ON     ; yes
     BSF     Light           ; no, turning on
     BSF     mLight
-    GOTO    BTN_INT
+    RETURN
 LIGHT_IS_ON
     BCF     Light           ; yes, turning off
     BCF     mLight
